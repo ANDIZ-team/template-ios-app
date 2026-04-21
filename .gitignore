@@ -1,0 +1,88 @@
+# ── Secrets / Security ──
+Secrets/
+.env
+.env.*
+*.pem
+*.key
+*.keychain
+*.keychain-db
+*.p12
+*.cer
+*.mobileprovision
+authkey_*.p8
+GoogleService-Info.plist
+firebase-debug.log
+
+# ── Xcode User Settings ──
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# ── Xcode Project Patch ──
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/**
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# ── Build Artifacts ──
+build/
+DerivedData/
+*.ipa
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+*.hmap
+*.moved-aside
+*.xcresult
+
+# ── Swift Package Manager ──
+.build/
+.swiftpm/
+SourcePackages/
+
+# ── Core Data ──
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# ── fastlane ──
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+.bundle/
+vendor/bundle
+
+# ── macOS System Files ──
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Trashes
+.Spotlight-V100
+.TemporaryItems
+
+# ── Editor / Profiling Temporary Files ──
+*.swp
+*~.nib
+*.log
+*.trace
+*.gcno
+*.gcda
+
+# ── Legacy Xcode ──
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+iOSInjectionProject/
+timeline.xctimeline
+playground.xcworkspace
