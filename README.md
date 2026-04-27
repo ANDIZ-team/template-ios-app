@@ -30,6 +30,9 @@ Andiz 신규 iOS 앱을 시작하기 위한 템플릿 레포.
 - [ ] Firebase 프로젝트 생성 + 연동 (Analytics, Crashlytics)
 - [ ] SwiftLint Build Phase 스크립트 추가
 - [ ] 앱 아이콘 임시 적용
+- [ ] `CLAUDE.md` 채우기 (앱 이름, 프로젝트 정보 블록)
+- [ ] `docs/PRD.md` 작성 (월요일 기획 시간에 Claude와 함께)
+- [ ] `/jira plan` 실행 (PRD 기반 Jira Epic/Story/Task 자동 생성)
 - [ ] 이 README를 앱 소개로 교체 ⬇️
 
 ### 3. README 교체 템플릿
@@ -65,12 +68,17 @@ Andiz 신규 iOS 앱을 시작하기 위한 템플릿 레포.
 
 ---
 
-## 자동 포함되는 것 (수정 X)
+## 자동 포함되는 것
 
+### 그대로 두기 (수정 X)
 - `CODEOWNERS` — 자동 리뷰어 지정
 - `.gitignore` — Swift/Xcode/SPM/Fastlane 표준
 - `.swiftlint.yml` — 공통 코드 스타일
 - 조직 차원 PR 템플릿 (`.github` 메타 레포에서 자동)
+
+### 복제 후 채워야 할 것
+- `CLAUDE.md` — Claude용 프로젝트 정보 (`## 프로젝트 정보` 블록은 `/jira plan`이 자동 갱신)
+- `docs/PRD.md` — 주간 이터레이션 PRD (Claude와 함께 작성)
 
 ---
 
